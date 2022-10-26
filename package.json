@@ -6,7 +6,7 @@
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.js --env production",
     "start:dev": "node server.js",
-    "test": "cross-env NODE_ENV=test jest --coverage"
+    "test": "NODE_ENV=test jest --coverage"
   },
   "keywords": [
     "nodejs",
